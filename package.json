@@ -1,33 +1,5 @@
 {
-  "name": "trading-agent-dashboard",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "typegen": "react-router typegen"
-  },
-  "dependencies": {
-    "react": "19.2.1",
-    "react-dom": "19.2.1",
-    "react-router": "7.9.6",
-    "@supabase/supabase-js": "^2.50.0",
-    "recharts": "^2.15.0",
-    "lucide-react": "^0.468.0",
-    "isbot": "^4.1.0"
-  },
   "devDependencies": {
-    "@vitejs/plugin-react": "^5.0.0",
-    "@react-router/dev": "^7.9.6",
-    "@tailwindcss/vite": "^4.0.0",
-    "vite-tsconfig-paths": "^5.0.0",
-    "typescript": "^5.9.3",
-    "vite": "^7.0.0",
-    "@vercel/node": "^3.4.0",
-    "tailwindcss": "^3.4.0",
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.0"
+    "@vercel/node": "^3.1.0"
   }
 }
