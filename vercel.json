@@ -1,9 +1,7 @@
 {
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
-  "env": {
-    "NODE_OPTIONS": "--experimental-modules"
-  },
+  "framework": "vite",
   "functions": {
     "api/**": {
       "runtime": "nodejs20.x",
@@ -12,8 +10,12 @@
   },
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/api/(.*)",
       "destination": "/api"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
