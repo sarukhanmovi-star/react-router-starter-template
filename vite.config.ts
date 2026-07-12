@@ -4,4 +4,11 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
 	plugins: [reactRouter(), tsconfigPaths()],
+	build: {
+		target: "esnext",
+		minify: "esbuild",
+	},
+	ssr: {
+		noExternal: [],
+	},
 });
