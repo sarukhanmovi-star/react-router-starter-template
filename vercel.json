@@ -1,6 +1,5 @@
 {
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
-  "framework": "vite",
-  "cleanUrls": true
+  "framework": "react-router"
 }
